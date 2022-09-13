@@ -604,7 +604,6 @@ textarea,
 }
 
 .typeWindows-2-g3UY>.wordmark-2u86JB:after {
-    content: "v6.3.0";
     color: rgba(255, 255, 255, .3);
     font-family: var(--code-font);
     font-size: 10px
@@ -667,16 +666,16 @@ textarea,
 }
 
 .typeMacOS-3V4xXE:before {
-    content: "CV";
+
     color: var(--main-color);
     font-weight: 700;
     text-shadow: 0 0 3px
 }
 
-/* .typeMacOS-3V4xXE:after {
-    content: "6.3.0";
+.typeMacOS-3V4xXE:after {
+
     color: rgba(255, 255, 255, .3)
-} */
+}
 
 .sidebar-1tnWFu {
     width: var(--channels-width);
@@ -1268,13 +1267,12 @@ textarea,
     transform: translateX(50%)
 }
 
-/* .container-YkUktl:after {
-    content: "v6.3.0";
+.container-YkUktl:after {
     left: 50%;
     text-align: left;
     opacity: 0;
     transform: translateX(50%) rotateX(90deg)
-} */
+}
 
 .container-YkUktl:hover:before {
     margin-right: 1px;
